@@ -17,12 +17,11 @@
       background-color="#545c64"
       text-color="#fff"
       active-text-color="#ffd04b" router="true">
-
-      <el-menu-item route="test" class="blog_item" index="1">网站首页</el-menu-item>
-      <el-menu-item route="bbb" class="blog_item" index="2">热门博客</el-menu-item>
-      <el-menu-item route="ss" class="blog_item" index="3">技术总结</el-menu-item>
-      <el-menu-item route="s" class="blog_item" index="4">生活闲趣</el-menu-item>
-      <el-menu-item route="a" class="blog_item" index="5">留言板</el-menu-item>
+      <el-menu-item route="blog_index" class="blog_item" index="1">网站首页</el-menu-item>
+      <el-menu-item route="blog_hot" class="blog_item" index="2">热门博客</el-menu-item>
+      <el-menu-item route="blog_technology" class="blog_item" index="3">技术总结</el-menu-item>
+      <el-menu-item route="blog_life" class="blog_item" index="4">生活闲趣</el-menu-item>
+      <el-menu-item route="blog_msgboard" class="blog_item" index="5">留言板</el-menu-item>
     </el-menu>
 
 
@@ -36,7 +35,7 @@
     name: 'blog_header',
     data() {
       return {
-        activeIndex2: '2'
+        activeIndex2: '1'
       }
     },
     methods: {
@@ -51,14 +50,13 @@
 </script>
 
 <style scoped>
-  @import "../assets/css/common.css";
+  @import "../../assets/css/common.css";
 
   .blog_head {
     height: 4rem;
     display: flex;
     flex-direction: row;
   }
-
   .blog_head_title {
     margin-top: 0.3rem;
     font-size: 18px;
@@ -70,7 +68,6 @@
     height: 3rem;
     margin-left: 6rem;
   }
-
   .blog_head_content {
     margin-left: 1rem;
     display: flex;

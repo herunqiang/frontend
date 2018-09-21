@@ -9,7 +9,7 @@
 </template>
 
 <script>
-  import blog_header from './head'
+  import blog_header from './common/head'
   export default {
     name: 'index',
     data () {
@@ -29,6 +29,6 @@
   @import "../assets/css/common.css";
   .blog_content{
     margin-top: 0.8rem;
-    min-height: 40rem;
+    min-height: 45rem;
   }
 </style>

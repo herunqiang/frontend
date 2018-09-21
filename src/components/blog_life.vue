@@ -1,13 +1,12 @@
 <template>
-    <div>
-
-      首页
-    </div>
+  <div>
+    生活
+  </div>
 </template>
 
 <script>
     export default {
-        name: "blog_index"
+        name: "blog_life"
     }
 </script>
 

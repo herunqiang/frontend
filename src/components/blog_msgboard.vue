@@ -1,13 +1,12 @@
 <template>
     <div>
-
-      首页
+      留言板
     </div>
 </template>
 
 <script>
     export default {
-        name: "blog_index"
+        name: "blog_msgboard"
     }
 </script>
 

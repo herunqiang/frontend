@@ -1,0 +1,19 @@
+.gray{
+  background: #fff;
+}
+.content{
+  background-color: #f5f7f9;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 500px;
+}
+.wrap{
+  width: 60%;
+  margin: 0 auto;
+  border:1px solid #ebeef5;
+  border-radius: 6px;
+  transition: .3s;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  overflow: hidden;
+  padding: 0.5rem 0.5rem ;
+}

@@ -35,7 +35,7 @@
     name: 'blog_header',
     data() {
       return {
-        activeIndex2: '1'
+        activeIndex2: '3'
       }
     },
     methods: {

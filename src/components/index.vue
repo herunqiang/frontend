@@ -31,4 +31,5 @@
     margin-top: 0.8rem;
     min-height: 45rem;
   }
+
 </style>

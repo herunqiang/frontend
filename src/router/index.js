@@ -6,6 +6,7 @@ import blog_hot from '../components/blog_hot'
 import blog_technology from '../components/blog_technology'
 import blog_life from '../components/blog_life'
 import blog_msgboard from '../components/blog_msgboard'
+import blog_detail from '../components/blog_detail'
 Vue.use(Router)
 
 export default new Router({
@@ -17,7 +18,7 @@ export default new Router({
       children:[
         {
           path: '/',
-          redirect:blog_index
+          redirect:blog_technology
         },
         {
           path: '/blog_index',
@@ -43,6 +44,11 @@ export default new Router({
           path: '/blog_msgboard',
           name: 'blog_msgboard',
           component: blog_msgboard
+        },
+        {
+          path: '/blog_detail',
+          name: 'blog_detail',
+          component: blog_detail
         }
       ]
     },

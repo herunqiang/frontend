@@ -1,0 +1,47 @@
+
+.blog_background{
+  background-color: rgba(245, 247, 249, 0.97);
+}
+.blog_card{
+  margin: 1.5rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+.blog_item {
+  position:relative;
+  line-height:1.3em;
+  /* 3 times the line-height to show 3 lines */
+  height:5.2em;
+  overflow:hidden;
+}
+.blog_bottom{
+  border-top: 1px solid #ebeef5;
+  padding-top: 0.25rem;
+  margin-top: 0.25rem;
+}
+.blog_label{
+  color: #14ecff;
+}
+.blog_wrap_label{
+  margin-left: 0rem;
+}
+.blog_right{
+  position: absolute;
+  right: 1rem;
+  margin-right: 0rem;
+}
+.blog_relative{
+  position: relative;
+}
+.blog_date{
+  font: 16px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+  line-height: normal;
+  color: #555;
+  line-height: 1.5;
+}
+.blog_title{
+  font: 18px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+  line-height: normal;
+  color: #555;
+  line-height: 1.5;
+}

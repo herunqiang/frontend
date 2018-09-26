@@ -11,6 +11,7 @@ export default {
 </script>
 
 <style>
-
+@import "./assets/css/icon/iconfont.css";
+@import "./assets/css/common.css";
 
 </style>

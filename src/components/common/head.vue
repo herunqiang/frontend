@@ -17,11 +17,11 @@
       background-color="#545c64"
       text-color="#fff"
       active-text-color="#ffd04b" router="true">
-      <el-menu-item route="blog_index" class="blog_item" index="1">网站首页</el-menu-item>
-      <el-menu-item route="blog_hot" class="blog_item" index="2">热门博客</el-menu-item>
-      <el-menu-item route="blog_technology" class="blog_item" index="3">技术总结</el-menu-item>
-      <el-menu-item route="blog_life" class="blog_item" index="4">生活闲趣</el-menu-item>
-      <el-menu-item route="blog_msgboard" class="blog_item" index="5">留言板</el-menu-item>
+      <el-menu-item route="blog_index" class="blog_item iconfont icon-zhuye" index="1">网站首页</el-menu-item>
+      <el-menu-item route="blog_hot" class="blog_item iconfont icon-remen" index="2">热门博客</el-menu-item>
+      <el-menu-item route="blog_technology" class="blog_item iconfont icon-jishuwendang" index="3">技术总结</el-menu-item>
+      <el-menu-item route="blog_life" class="blog_item iconfont icon-shenghuo" index="4">生活闲趣</el-menu-item>
+      <el-menu-item route="blog_msgboard" class="blog_item iconfont icon-liuyan" index="5">留言板</el-menu-item>
     </el-menu>
 
 
@@ -35,7 +35,7 @@
     name: 'blog_header',
     data() {
       return {
-        activeIndex2: '3'
+        activeIndex2: '5'
       }
     },
     methods: {
@@ -51,6 +51,7 @@
 
 <style scoped>
   @import "../../assets/css/common.css";
+  @import "../../assets/css/icon/iconfont.css";
 
   .blog_head {
     height: 4rem;

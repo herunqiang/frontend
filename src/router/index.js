@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/index'
+import HelloWorld from '../components/index'
 import blog_index from '../components/blog_index'
 import blog_hot from '../components/blog_hot'
 import blog_technology from '../components/blog_technology'
@@ -18,7 +18,7 @@ export default new Router({
       children:[
         {
           path: '/',
-          redirect:blog_technology
+          redirect:blog_msgboard
         },
         {
           path: '/blog_index',
